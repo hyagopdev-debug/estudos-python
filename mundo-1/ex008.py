@@ -1,4 +1,4 @@
-metro = float(input("Digete o número de metros que você quer converter:"))
+metro = float(input("Digite o número de metros que você quer converter:"))
 centimetro = metro * 100
 milimetro = metro * 1000
 print(f"{metro} equivale a {centimetro} centimetros")
