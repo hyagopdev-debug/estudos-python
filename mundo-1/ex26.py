@@ -1,0 +1,7 @@
+frase = str(input("Digite uma frase:")).strip().upper()
+contar_letra = frase.count("A")
+posicao_primeira_vez = frase.find("A")
+posicao_ultima_vez = frase.rfind("A")
+print(f"A letra A apareceu {contar_letra} vezes!")
+print(f"A primeira vez que a letra A apareceu foi na posição {posicao_primeira_vez + 1}")
+print(f"A ultima vez que a letra A apareceu foi na posição {posicao_ultima_vez + 1}")
